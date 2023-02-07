@@ -27,6 +27,7 @@ div#res {
     margin: auto;
     height: 30px;
     padding: 5px;
+    max-width: 250px;
 
 }
 h1 {

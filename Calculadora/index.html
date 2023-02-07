@@ -15,35 +15,35 @@
             
             <table>
                 <tr>
-                    <td><button id="c">C</button></td>
-                    <td><button id="menor"> < </button></td>
-                    <td><button id="/">/</button></td>
-                    <td><button id="x">X</button></td>
+                    <td><button id="c" onclick="VERIFI_C()" >C</button></td>
+                    <td><button id="menor" onclick="VERIFI_MENOR()" value="<"> < </button></td>
+                    <td><button id="/" value="/" onclick="VERIFI_DIVISAO()">/</button></td>
+                    <td><button id="x" value="*"  onclick="VERIFI_MULTI()">X</button></td>
                 </tr>
                 <tr>
-                    <td><button id="7">7</button></td>
-                    <td><button id="8">8</button></td>
-                    <td><button id="9">9</button></td>
-                    <td><button id="-">-</button></td>
+                    <td><button id="7" value="7" onclick="VERIFI_7()">7</button></td>
+                    <td><button id="8" value="8" onclick="VERIFI_8()">8</button></td>
+                    <td><button id="9" value="9" onclick="VERIFI_9()">9</button></td>
+                    <td><button id="-" value="-" onclick="VERIFI_SUB()">-</button></td>
                 </tr>
                 <tr>
-                    <td><button id="4">4</button></td>
-                    <td><button id="5">5</button></td>
-                    <td><button id="6">6</button></td>
-                    <td><button id="+">+</button></td>
+                    <td><button id="4" value="4" onclick="VERIFI_4()">4</button></td>
+                    <td><button id="5" value="5" onclick="VERIFI_5()">5</button></td>
+                    <td><button id="6" value="6" onclick="VERIFI_6()">6</button></td>
+                    <td><button id="+" value="+" onclick="VERIFI_SOMA()">+</button></td>
                 </tr>
                
                     <tr>
-                        <td><button class="num" id="1">1</button></td>
-                        <td><button class="num" id="2">2</button></td>
-                        <td><button class="num" id="3">3</button></td>
-                        <td rowspan="2"><button   id="igual">=</button></td>
+                        <td><button value="1" id="1" onclick="VERIFI_1()">1</button></td>
+                        <td><button value="2" id="2" onclick="VERIFI_2()">2</button></td>
+                        <td><button value="3" id="3" onclick="VERIFI_3()">3</button></td>
+                        <td rowspan="2"><button  id="igual" onclick="VERIFI_IGUAL()">=</button></td>
                     </tr>
                 
                 
                     <tr>
-                        <td colspan="2"><button id="zero">0</button></td>
-                        <td><button id=".">.</button></td>
+                        <td colspan="2"><button id="zero" value="0" onclick="VERIFI_0()">0</button></td>
+                        <td><button id="." onclick="VERIFI_PONTO()">.</button></td>
                     </tr>
                 
             </table>
