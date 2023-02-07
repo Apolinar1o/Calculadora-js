@@ -1,0 +1,52 @@
+
+:root {
+    --Degrade1: #000016;
+    --Degrade2: #0000F2;
+    --Fundo: #00001D;
+
+}
+body {
+    background-image: linear-gradient(to top right, var(--Degrade1), var(--Degrade2) );
+    background-attachment: fixed;
+  
+}
+main {
+    width: 300px;
+    height: 400px;
+    background-color: var(--Fundo);
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+div#res {
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    margin: auto;
+    height: 30px;
+    padding: 5px;
+
+}
+h1 {
+    text-align: center;
+    color: white;
+
+}
+div#botoes {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+button {
+    margin: 2px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    columns: 3;
+    background-color: #282828;
+    border-radius: 5px;
+    border: none;
+    
+   
+}
