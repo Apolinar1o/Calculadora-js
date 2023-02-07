@@ -12,7 +12,7 @@ body {
 }
 main {
     width: 300px;
-    height: 400px;
+    height: auto;
     background-color: var(--Fundo);
     padding: 5px;
     margin: auto;
@@ -21,6 +21,7 @@ main {
 }
 div#res {
     text-align: center;
+    font-size: 20pt;
     background-color: white;
     width: 250px;
     margin: auto;
@@ -34,19 +35,38 @@ h1 {
 
 }
 div#botoes {
-    width: 250px;
+    width: 240px;
     text-align: center;
     margin: auto;
+    padding: 5px;
+    
 }
 button {
     margin: 2px;
     display: inline-block;
     width: 50px;
     height: 50px;
-    columns: 3;
     background-color: #282828;
     border-radius: 5px;
     border: none;
-    
-   
+    color: white;
+    transition: background-color 0.3s;
+
+} 
+button#igual {
+    height: 106px;
+}
+button#zero {
+    width: 110px;
+}
+button:hover {
+background-color: #4b4b4b;
+
+}
+footer {
+    text-align: center;
+    font-size: 15pt;
+    color: white;
+    font-style: italic;
+    margin-top: 20px;
 }
