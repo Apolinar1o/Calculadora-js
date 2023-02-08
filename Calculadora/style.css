@@ -52,6 +52,7 @@ button {
     border: none;
     color: white;
     transition: background-color 0.3s;
+    font-size:20pt;
 
 } 
 button#igual {
@@ -63,6 +64,14 @@ button#zero {
 button:hover {
 background-color: #4b4b4b;
 
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+a:hover {
+    color: #4b4b4b;
 }
 footer {
     text-align: center;

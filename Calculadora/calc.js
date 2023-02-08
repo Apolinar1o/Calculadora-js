@@ -1,13 +1,14 @@
 var res = document.getElementById("res")
 var but = document.querySelector("button")
 let value
-let num =0
+let num = 0
+res.style.overflow = "auto"
 function VALOR() {
 
     
     if (value === "c"){
         res.innerHTML = ""
-        num = 0
+        num = ""
     } else if (value=== "=") {
         
         res.innerHTML = eval(num)
