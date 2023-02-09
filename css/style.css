@@ -8,22 +8,28 @@
 body {
     background-image: linear-gradient(to top right, var(--Degrade1), var(--Degrade2) );
     background-attachment: fixed;
+    
   
 }
 main {
-    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
     height: auto;
     background-color: var(--Fundo);
     padding: 5px;
-    margin: auto;
+    
     border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 div#res {
     text-align: center;
     font-size: 20pt;
     background-color: white;
-    width: 250px;
+    width: 210px;
     margin: auto;
     height: 30px;
     padding: 5px;
@@ -33,26 +39,30 @@ div#res {
 h1 {
     text-align: center;
     color: white;
+    margin-bottom: 0;
+    font-size: 18pt;
+    
 
 }
 div#botoes {
     width: 240px;
     text-align: center;
-    margin: auto;
+    margin: auto auto 10px auto;
     padding: 5px;
-    
+
 }
+
 button {
     margin: 2px;
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #282828;
+    background-color: #202020;
     border-radius: 5px;
     border: none;
     color: white;
     transition: background-color 0.3s;
-    font-size:20pt;
+    font-size:19pt;
 
 } 
 button#igual {
@@ -79,4 +89,8 @@ footer {
     color: white;
     font-style: italic;
     margin-top: 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
